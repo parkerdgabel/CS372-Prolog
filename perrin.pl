@@ -1,7 +1,9 @@
+% The first three perrin numbers are already known
 perrin(0, 3).
 perrin(1, 0).
 perrin(2, 2).
 
+% Computes the nth perrin number
 perrin(SeqNum, Value) :-
   SeqNum > 2,
   S1 is SeqNum - 2,
